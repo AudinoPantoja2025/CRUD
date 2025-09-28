@@ -18,6 +18,7 @@ public class CrudJdbc {
             System.out.println("3. Actualizar producto");
             System.out.println("4. Eliminar producto");
             System.out.println("0. Salir");
+            System.out.println("0. Salir");
             System.out.print("Opción: ");
             opcion = sc.nextInt();
             sc.nextLine();
