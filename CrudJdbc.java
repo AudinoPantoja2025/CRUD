@@ -89,7 +89,7 @@ public class CrudJdbc {
             ps.setDouble(2, precio);
             ps.setInt(3, id);
             int filas = ps.executeUpdate();
-            if (filas > 0) System.out.println("Producto actualizado y nuevo ✅");
+            if (filas > 0) System.out.println("Producto actualizado✅");
             else System.out.println("No se encontró el producto ❌");
         } catch (SQLException e) {
             e.printStackTrace();
